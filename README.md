@@ -1,13 +1,15 @@
-
-
 # Bugless Errors
 
-<span style="color:red">Warning: This is not well tested and you should be carefull with trusting my program to much. If there are any errors, please create an issue or email `brandon.e.feder@gmail.com`.</span>
+```diff
+- Warning: This is not well tested and you should be carefull with trusting my program to much. If there are any errors, please create an issue or email `brandon.e.feder@gmail.com`.
+```
 
 ## Introcution
 This is a library I created in order to make doing simple operations with measured data easier. It's main purporse it so provide a structure that allows for menipulating numbers with proper significant figures and error propogation. However, it also provides a few utilities to make dealing with real data easier.
 
-<span style="color:green">I would suggest you read through this documentation breifely but also look at `example.py` which may be more useful to som people.</span>
+```diff
+- Warning: I would suggest you read through this documentation breifely but also look at `example.py` which may be more useful to som people.
+```
 
 I also know that this is some really shitty documentation. I probubly wont fix that.
 
@@ -22,7 +24,9 @@ The class uses the following convention. Please read:
 
 Because of this, the result may be very slightly different then if you were rounding after every multiplication, addition, subtraction, etc.
 
-<span style="color:orange">Note: Computers are not perfect and rounding errors happen ALL THE TIME. For example, if for some reason you expect something to be exactly 0, it may instead be something like 0.0000000...1. Be aware of this. This rounding error should not effect the result of any computation in any meaningful way as long as the numbers being stored comforably fit in a 64-bit floating point format.</span>
+```diff
+- Note: Computers are not perfect and rounding errors happen ALL THE TIME. For example, if for some reason you expect something to be exactly 0, it may instead be something like 0.0000000...1. Be aware of this. This rounding error should not effect the result of any computation in any meaningful way as long as the numbers being stored comforably fit in a 64-bit floating point format.
+```
 
 ### Constructor
 Function decleration:
@@ -104,7 +108,9 @@ The `getError` function returns `err` as a string always in scientific notation 
 
 The `getPercentError` function returns the error divided by the actual value rounded to `ndig`s AFTER THE DECIMAL.
 
-<span style="color:orange">Note: these strings should be rounded correctly, but dont expect to be able to convert them to a float, perform arithmetic, then convert them back and it still be rounded correctly. IT DOES NOT WORK LIKE THAT. These functions should only be called when there result will not be used in any more computations.</span>
+```diff
+- Note: these strings should be rounded correctly, but dont expect to be able to convert them to a float, perform arithmetic, then convert them back and it still be rounded correctly. IT DOES NOT WORK LIKE THAT. These functions should only be called when there result will not be used in any more computations.
+```
 
 ## Other Useful Stuff
 ### What is CSV format?
