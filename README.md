@@ -1,8 +1,4 @@
-<style>
-span {
-  color: red;
-  }
-</style>
+
 
 # Bugless Errors
 
