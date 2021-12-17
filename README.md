@@ -1,3 +1,9 @@
+<style>
+span {
+  color: red;
+  }
+</style>
+
 # Bugless Errors
 
 <span style="color:red">Warning: This is not well tested and you should be carefull with trusting my program to much. If there are any errors, please create an issue or email `brandon.e.feder@gmail.com`.</span>
